@@ -1,0 +1,7 @@
+LOAD CSV WITH HEADERS FROM "file:///C:/tweets.csv" AS row
+
+CREATE (c:Complaint {Complaint:row.Complaint})
+MERGE (u:Username {Username:row.Username})<-[:BY]-(c)
+MERGE (d:Date {Date:row.Date})<-[:ON]-(c)
+MERGE (i:Issue_type {Issue_type:row.Issue_type})<-[:ABOUT]-(c)
+MERGE (t:Company {Company:row.Company})<-[:FOR]-(c)

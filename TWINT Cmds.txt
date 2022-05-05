@@ -1,0 +1,7 @@
+conda install -c anaconda git
+git clone https://github.com/twintproject/twint.git
+cd twint
+pip install . -r requirements.txt
+pip install twint
+twint --search "Google Pixel 5" -o Pixel.csv
+df.to_csv(r'C:\Windows\System32\twint\Pixel.csv', index = False)

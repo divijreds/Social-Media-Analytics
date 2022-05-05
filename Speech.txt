@@ -1,0 +1,8 @@
+In the industrial revolution 4.0 which is the information and digit revolution, there is a lot of data available to us at our disposal. So it is now time to use this data to our advantage. There is a lot of technological advancements which are happening currently and data-driven apps are being developed. Our application is one such small part of this revolution.
+
+Our aim was to develop an analytical solution for a brand or a company to analyze their customer feedbacks and thus improve the customer satisfaction in process.
+
+One of our purpose of developing this project was also to learn and work upon the graph database named neo4j. 
+
+Neo4j slide
+greta thunberg example
